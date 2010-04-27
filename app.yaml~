@@ -1,0 +1,11 @@
+application: heta13
+version: 0-1-test
+runtime: python
+api_version: 1
+
+handlers:
+- url: /.*
+  script: heta13.py
+
+- url: /stylesheets
+  static_dir: stylesheets
